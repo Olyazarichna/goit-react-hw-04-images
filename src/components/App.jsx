@@ -46,7 +46,7 @@ export function App() {
   };
 
   const loadMore = () => {
-    setPage(page + 1);
+    setPage(page => page + 1);
   };
   const toggleModal = () => {
     setOpenModal(!openModal);
